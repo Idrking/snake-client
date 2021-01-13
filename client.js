@@ -16,7 +16,7 @@ const connect = () => {
     console.log('Successfully connected to game server');
     conn.write('Name: IK');
   })
-
+  
   return conn;
 
 }
