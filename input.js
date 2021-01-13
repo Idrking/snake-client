@@ -25,6 +25,15 @@ const setupInput = (conn) => {
       case 'd':
         connection.write('Move: right');
         break;
+      case 'y':
+        connection.write('Say: Yes');
+        break;
+      case 'n':
+        connection.write('Say: No');
+        break;
+      case 'h':
+        connection.write('Say: Horse');
+        break;
     }
   };
 
